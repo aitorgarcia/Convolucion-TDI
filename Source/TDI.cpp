@@ -9,6 +9,7 @@ int main(int argc, char **argv)
 {
 	printf("Prueba\n");
 	system("Pause");
-	//test
+	
+	//cambiado en vs
 	//return Test(argc, argv);
 }
