@@ -145,6 +145,7 @@
     <ClInclude Include="..\Include\C_Memory.hpp" />
     <ClInclude Include="..\Include\C_String.hpp" />
     <ClInclude Include="..\Include\C_Trace.hpp" />
+    <ClInclude Include="..\Source\TDI.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Source\TDI.cpp" />
