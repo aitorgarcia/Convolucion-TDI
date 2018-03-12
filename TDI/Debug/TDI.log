@@ -1,11 +1,2 @@
 ﻿  TDI.cpp
-c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(88): warning C4244: 'return': conversión de 'C_Matrix::ElementT' a 'int'; posible pérdida de datos
-c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(92): warning C4244: 'return': conversión de 'C_Matrix::ElementT' a 'int'; posible pérdida de datos
-c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(96): warning C4244: 'return': conversión de 'C_Matrix::ElementT' a 'int'; posible pérdida de datos
-c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(100): warning C4244: 'return': conversión de 'C_Matrix::ElementT' a 'int'; posible pérdida de datos
-c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(104): warning C4244: 'return': conversión de 'C_Matrix::ElementT' a 'int'; posible pérdida de datos
-c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(108): warning C4244: 'return': conversión de 'C_Matrix::ElementT' a 'int'; posible pérdida de datos
-c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(112): warning C4244: 'return': conversión de 'C_Matrix::ElementT' a 'int'; posible pérdida de datos
-c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(116): warning C4244: 'return': conversión de 'C_Matrix::ElementT' a 'int'; posible pérdida de datos
-c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(119): warning C4244: 'return': conversión de 'C_Matrix::ElementT' a 'int'; posible pérdida de datos
   TDI.vcxproj -> C:\Users\aitor\Documents\GitHub\Convolucion-TDI\Debug\TDI.exe
