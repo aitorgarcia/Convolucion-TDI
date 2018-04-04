@@ -1,2 +1,49 @@
 ﻿  TDI.cpp
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(47): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: vea la declaración de 'scanf'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(49): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(50): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(80): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(1272): note: vea la declaración de 'scanf'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(184): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(185): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(207): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(211): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(215): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(219): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(223): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(227): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(231): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(235): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(238): warning C4244: 'return': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(274): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(285): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(301): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(317): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(327): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(338): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(349): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(364): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(391): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(406): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(419): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(435): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
+c:\users\aitor\documents\github\convolucion-tdi\source\tdi.cpp(451): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(89): note: vea la declaración de 'strcat'
   TDI.vcxproj -> C:\Users\aitor\Documents\GitHub\Convolucion-TDI\Debug\TDI.exe
