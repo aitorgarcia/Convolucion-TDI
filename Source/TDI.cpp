@@ -126,35 +126,6 @@ int main(int argc, char **argv)
 		return 0;
 	}
 
-	/*if (opcion == 1)
-		matrizFiltroMedia3x3();
-	else if (opcion == 2)
-		matrizFiltroRealzado3x3();
-	else if (opcion == 3)
-		matrizFiltroPasoBajo3x3();
-	else if (opcion == 4)
-		matrizFiltroPasoAlto3x3();
-	else if (opcion == 5)
-		matrizFiltroPasoAlto5x5();
-	else if (opcion == 6)
-		matrizFiltroGaussiano3x3();
-	else if (opcion == 7)
-		matrizFiltroGaussiano5x5();
-	else if (opcion == 8)
-		matrizFiltroLaplaciano3x3();
-	else if (opcion == 9)
-		matrizFiltroLaplaciano5x5();
-	else if (opcion == 10)
-		matrizFiltroSobelHorizontal3x3();
-	else if (opcion == 11)
-		matrizFiltroSobelVertical3x3();
-	else if (opcion == 12)
-		matrizFiltroPrewittHorizontal3x3();
-	else if (opcion == 13)
-		matrizFiltroPrewittVertical3x3();
-	else
-		return 0;*/
-
 	imagenSalida = imagenEntrada;
 
 
@@ -318,7 +289,7 @@ void matrizFiltroSobelVertical3x3() {
 }
 
 void matrizFiltroMedia3x3() {
-	C_Matrix matriz(0, 2, 0, 2, 0.11);
+	C_Matrix matriz(-1, 1, -1, 1, 0.11);
 
 	printf("\n\nHas seleccionado el Filtro Media (3x3), esta es su matriz de convolucion:\n\n");
 	matrizConvolucion = matriz;
