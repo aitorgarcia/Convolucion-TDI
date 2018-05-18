@@ -22,7 +22,6 @@ void matrizFiltroPasoAlto5x5();
 void matrizFiltroGaussiano3x3();
 void matrizFiltroGaussiano5x5();
 void matrizFiltroLaplaciano3x3();
-void matrizFiltroRealzado3x3();
 void matrizFiltroPrewittVertical3x3();
 void matrizFiltroPrewittHorizontal3x3();
 
@@ -60,18 +59,17 @@ int main(int argc, char **argv)
 		printf("#          FILTROS APLICABLES          #\n");
 		printf("########################################\n");
 		printf("#  1. Filtro Media                     #\n");
-		printf("#  2. Filtro Realzado                  #\n");
-		printf("#  3. Filtro Paso Bajo                 #\n");
-		printf("#  4. Filtro Paso Alto                 #\n");
-		printf("#  5. Filtro Paso Alto (5x5)           #\n");
-		printf("#  6. Filtro Gaussiano                 #\n");
-		printf("#  7. Filtro Gaussiano (5x5)           #\n");
-		printf("#  8. Filtro Laplaciano                #\n");
-		printf("#  9. Filtro Laplaciano (5x5)          #\n");
-		printf("# 10. Filtro Sobel Horizontal          #\n");
-		printf("# 11. Filtro Sobel Vertical            #\n");
-		printf("# 12. Filtro Prewitt Horizontal        #\n");
-		printf("# 13. Filtro Prewitt Vertical          #\n");
+		printf("#  2. Filtro Paso Bajo                 #\n");
+		printf("#  3. Filtro Paso Alto                 #\n");
+		printf("#  4. Filtro Paso Alto (5x5)           #\n");
+		printf("#  5. Filtro Gaussiano                 #\n");
+		printf("#  6. Filtro Gaussiano (5x5)           #\n");
+		printf("#  7. Filtro Laplaciano                #\n");
+		printf("#  8. Filtro Laplaciano (5x5)          #\n");
+		printf("#  9. Filtro Sobel Horizontal          #\n");
+		printf("# 10. Filtro Sobel Vertical            #\n");
+		printf("# 11. Filtro Prewitt Horizontal        #\n");
+		printf("# 12. Filtro Prewitt Vertical          #\n");
 		printf("#                                      #\n");
 		printf("# 0. Salir                             #\n");
 		printf("########################################\n\n");
@@ -87,39 +85,36 @@ int main(int argc, char **argv)
 		matrizFiltroMedia3x3();
 		break;
 	case 2:
-		matrizFiltroRealzado3x3();
-		break;
-	case 3:
 		matrizFiltroPasoBajo3x3();
 		break;
-	case 4:
+	case 3:
 		matrizFiltroPasoAlto3x3();
 		break;
-	case 5:
+	case 4:
 		matrizFiltroPasoAlto5x5();
 		break;
-	case 6:
+	case 5:
 		matrizFiltroGaussiano3x3();
 		break;
-	case 7:
+	case 6:
 		matrizFiltroGaussiano5x5();
 		break;
-	case 8:
+	case 7:
 		matrizFiltroLaplaciano3x3();
 		break;
-	case 9:
+	case 8:
 		matrizFiltroLaplaciano5x5();
 		break;
-	case 10:
+	case 9:
 		matrizFiltroSobelHorizontal3x3();
 		break;
-	case 11:
+	case 10:
 		matrizFiltroSobelVertical3x3();
 		break;
-	case 12:
+	case 11:
 		matrizFiltroPrewittHorizontal3x3();
 		break;
-	case 13:
+	case 12:
 		matrizFiltroPrewittVertical3x3();
 		break;
 	default:
@@ -228,7 +223,7 @@ void matrizFiltroLaplaciano5x5() {
 	matriz(0, -1) = -2;
 	matriz(1, 0) = -2;
 	matriz(0, 1) = -2;
-	matriz(0, 0) = 17;
+	matriz(0, 0) = 17; //16
 	matriz(-2, 0) = -1;
 	matriz(-1, -1) = -1;
 	matriz(0, -2) = -1;
@@ -247,7 +242,7 @@ void matrizFiltroLaplaciano5x5() {
 
 void matrizFiltroPasoAlto3x3() {
 	C_Matrix matriz(-1, 1, -1, 1, -1);
-	matriz(0, 0) = 8;
+	matriz(0, 0) = 8; //9
 
 	printf("\n\nHas seleccionado el Filtro Paso Alto (3x3), esta es su matriz de convolucion:\n\n");
 	matrizConvolucion = matriz;
@@ -311,7 +306,7 @@ void matrizFiltroPasoBajo3x3() {
 
 void matrizFiltroPasoAlto5x5() {
 	C_Matrix matriz(-2, 2, -2, 2, -1);
-	matriz(0, 0) = 25;
+	matriz(0, 0) = 24; //25
 
 	printf("\n\nHas seleccionado el Filtro Paso Alto (5x5), esta es su matriz de convolucion:\n\n");
 	matrizConvolucion = matriz;
@@ -364,7 +359,7 @@ void matrizFiltroGaussiano5x5() {
 
 void matrizFiltroLaplaciano3x3() {
 	C_Matrix matriz(-1, 1, -1, 1, 1);
-	matriz(0, 0) = -4;
+	matriz(0, 0) = -4; //-3
 	matriz(-1, -1) = 0;
 	matriz(-1, 1) = 0;
 	matriz(1, -1) = 0;
@@ -375,19 +370,6 @@ void matrizFiltroLaplaciano3x3() {
 	matrizConvolucion.Print(matrizConvolucion.ColN(), (int)C_DOUBLE_P_INF);
 
 	strcat(nombreFiltro, "_laplaciano_3x3.bmp");
-}
-
-void matrizFiltroRealzado3x3() {
-	C_Matrix matriz(-1, 1, -1, 1, 0);
-	matriz(0, 0) = -1;
-	matriz(-1, -1) = 2;
-	matriz(1, 1) = -1;
-
-	printf("\n\nHas seleccionado el Filtro Realzado (3x3), esta es su matriz de convolucion:\n\n");
-	matrizConvolucion = matriz;
-	matrizConvolucion.Print(matrizConvolucion.ColN(), (int)C_DOUBLE_P_INF);
-
-	strcat(nombreFiltro, "_realzado_3x3.bmp");
 }
 
 void matrizFiltroPrewittVertical3x3() {
